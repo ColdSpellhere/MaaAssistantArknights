@@ -159,6 +159,7 @@
         "template": "RelaunchAnchor@RA@DoubleSpeed.png",
         "action": "ClickSelf",
         "roi": [1060, 20, 80, 70],
+        "templThreshold": 0.75,
         "maskRange": [220, 255],
         "next": ["#self", "RelaunchAnchor@RA@RA1-DeployGatheringBaseWait"]
     },
